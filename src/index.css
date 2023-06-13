@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
 :root {
   --bg-color: #E9EAF4;
   --primary: #4C56BB;
@@ -6,63 +9,110 @@
   --secondary-text: #3C4759;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-color);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--bg-color);
+  /* border: 1px solid #4C56BB; */
 }
 
+*:focus {
+  outline: none;
+}
 
 .heading1 {
   /* Heading 1 */
-  font-family: 'Barlow Condensed';
+  font-family: 'Barlow', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 72px;
-  line-height: 86px;
+  font-size: 54px;
+  line-height: 64px;
   letter-spacing: 0.012em;
   color: var(--primary-text);
 }
 
 .heading2 {
   /* Heading 2 */
-  font-family: 'Barlow Condensed';
+  font-family: 'Barlow', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 42px;
-  line-height: 50px;
+  font-size: 28px;
+  line-height: 32px;
   letter-spacing: 0.012em;
   color: var(--primary-text);
 }
 
 .heading3 {
   /* Heading 3 */
-  font-family: 'Barlow Condensed';
+  font-family: 'Barlow', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 38px;
+  font-size: 22px;
+  line-height: 25px;
   letter-spacing: 0.012em;
   color: var(--primary-text);
 }
 
 .body-txt {
   /* Body text */
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 32px;
-  color: var(--secondary-text);
-}
-
-.small-txt {
-  /* small txt */
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: var(--secondary-text);
+}
+
+.small-txt {
+  /* small txt */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--secondary-text);
+}
+
+.btn {
+  cursor: pointer;
+  padding: 16px 32px;
+  background-color: var(--secondary);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--bg-color);
+  font-family: 'Barlow', sans-serif;
+  border-radius: 16px;
+  border: none;
+  transition: all ease-in-out 240ms;
+}
+
+.btn:hover {
+  background-color: #4C56BB;
+  box-shadow: 4px 4px 2px rgba(76, 86, 187, .3);
+}
+
+.btnSecondary {
+  cursor: pointer;
+  padding: 16px 32px;
+  background-color: rgba(175, 186, 202, .33);
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(28, 34, 43, .8);
+  border: 1.6px solid rgba(94, 113, 141, .2);
+  font-family: 'Barlow', sans-serif;
+  border-radius: 16px;
+  margin-left: 24px;
+  outline: none;
+  transition: all ease-in-out 240ms;
+}
+
+.btnSecondary:hover {
+  background-color: rgba(175, 186, 202, .53);
+  ;
 }

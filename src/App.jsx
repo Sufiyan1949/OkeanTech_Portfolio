@@ -1,14 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import {HeroSection} from './components/HeroSection'
+import {AboutSection} from './components/AboutSection'
+import {ServiceSection} from './components/ServiceSection'
+import {WhyChooseSection} from './components/WhyChooseSection'
+import {PortfolioSection} from './components/PortfolioSection'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <HeroSection/>
+      <AboutSection/>
+      <ServiceSection/>
+      <WhyChooseSection/>
+      <PortfolioSection/>
     </>
   )
 }

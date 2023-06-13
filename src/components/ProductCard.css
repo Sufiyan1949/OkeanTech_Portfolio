@@ -1,0 +1,68 @@
+.ProductCard {
+    max-width: 480px;
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(167, 167, 167, 0.1);
+    backdrop-filter: blur(40px);
+    transition: all ease 300ms;
+}
+
+.ProductCard:hover {
+    background-color: rgba(167, 167, 167, 0.2);
+}
+
+.ProductCard:hover .textContainer>img {
+    opacity: 1;
+    rotate: -40deg;
+}
+
+.ProductCard>img {
+    width: 100%;
+    height: 360px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.ProductCard .textContainer {
+    display: flex;
+    padding: 0 6px;
+    justify-content: space-between;
+}
+
+.ProductCard .textContainer>div>h3 {
+    position: relative;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.ProductCard .textContainer>div>p {
+    color: white;
+    opacity: .8;
+}
+
+
+.ProductCard .textContainer>div>h3::after {
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: white;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.ProductCard:hover .textContainer>div>h3::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+.ProductCard .textContainer>img {
+    width: 32px;
+    color: white;
+    opacity: .5;
+    transition: all ease 200ms;
+}

@@ -1,0 +1,41 @@
+.PortfolioContainer {
+    width: 100%;
+    min-height: 660px;
+    background-color: black;
+    position: relative;
+}
+
+.PortfolioContainer > img{
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.PortfolioContent {
+    display: flex;
+    padding: 64px 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PortfolioContainer>.PortfolioContent>h1 {
+    color: white;
+    margin-bottom: 16px;
+}
+
+.PortfolioContainer>.PortfolioContent>p {
+    color: white;
+    opacity: .8;
+    margin-bottom: 64px;
+}
+
+.PortfolioContainer .ProductCardGrid {
+    display: flex;
+    column-gap: 48px;
+    row-gap: 64px;
+    place-content: center;
+    flex-wrap: wrap;
+}

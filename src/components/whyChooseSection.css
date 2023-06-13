@@ -1,0 +1,22 @@
+.whyChooseContainer {
+    max-height: 982px;
+    min-height: 660px;
+    padding: 64px 48px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whyChooseContainer>h1 {
+    margin-bottom: 88px;
+}
+
+.whyChooseContainer .whyCardGrid {
+    display: flex;
+    column-gap: 48px;
+    row-gap: 64px;
+    place-content: center;
+    flex-wrap: wrap;
+}
