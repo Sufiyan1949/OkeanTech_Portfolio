@@ -48,6 +48,7 @@
     height: 3px;
     top: 100%;
     left: 0;
+    border-radius: 1.5px;
     background: white;
     transition: transform 0.5s;
     transform: scaleX(0);
