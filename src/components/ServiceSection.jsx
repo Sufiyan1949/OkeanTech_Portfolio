@@ -9,7 +9,7 @@ import { ServiceItem } from "./ServiceItem";
 
 export const ServiceSection = () => {
   return (
-    <div className="servicesContainer">
+    <div id="services" className="servicesContainer">
       <h1 className="heading1">Services</h1>
       <p className="body-txt">
         Following are some services that we offer, However you can contact us if

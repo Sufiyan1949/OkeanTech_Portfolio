@@ -5,7 +5,7 @@ import bg from '../assets/bg_effect_portfolio.svg'
 
 export const PortfolioSection = () => {
   return (
-    <div className="PortfolioContainer">
+    <div id="work" className="PortfolioContainer">
       <img src={bg} alt="background effect" />
       <div className="PortfolioContent">
         <h1 className="heading1">OkeanTech Portfolio</h1>

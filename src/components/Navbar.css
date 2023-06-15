@@ -10,10 +10,11 @@
     padding: 24px 48px;
 }
 
-.nav > a{
+.nav>a {
     display: flex;
     align-items: center;
 }
+
 .nav .menus a {
     text-decoration: none;
     font-family: 'Montserrat';
@@ -48,4 +49,15 @@
 .nav .menus a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        padding: 16px 16px;
+    }
+
+    .nav .menus {
+        display: none;
+    }
+
 }

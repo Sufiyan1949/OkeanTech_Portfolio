@@ -37,3 +37,18 @@
     padding: 2px 3px 3.5px 3px;
 }
 
+@media screen and (max-width: 480px) {
+    .footerContainer {
+        height: auto;
+        padding: 24px 16px;
+        flex-direction: column;
+    }
+    
+    .footerContainer>p {
+        margin-bottom: 24px;
+    }
+    
+    .footerContainer .socials a img {
+        height: 32px;
+    }
+}

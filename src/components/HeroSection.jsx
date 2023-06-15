@@ -19,7 +19,9 @@ export const HeroSection = () => {
               that captivate audiences and elevate brands to new heights.
             </p>
             <button className="btn">GET IN TOUCH</button>
-            <button className="btnSecondary">VIEW ALL WORK</button>
+            <a href="#work" className="btnSecondary">
+              VIEW ALL WORK
+            </a>
           </div>
         </div>
         <div className="heroRight">
@@ -30,3 +32,11 @@ export const HeroSection = () => {
     </div>
   );
 };
+
+function setHeight() {
+  var nav = document.getElementsByClassName("nav").clientHeight;
+  var left = document.getElementsByClassName("heroLeft").clientHeight;
+  var right = document.getElementsByClassName("heroRight").clientHeight;
+
+  console.log("total height is : "+(nav+left+right));
+}

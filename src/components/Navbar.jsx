@@ -9,9 +9,9 @@ export const Navbar = () => {
         <img src={logo} alt="OkeanTech Logo" />
       </a>
       <div className="menus">
-        <a href="">Services</a>
-        <a href="">My Work</a>
-        <a href="">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">My Work</a>
+        <a href="#about">About</a>
         <a href="">Contact</a>
       </div>
     </div>

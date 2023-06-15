@@ -5,7 +5,7 @@ import aboutArt from "../assets/left_art_c.png";
 
 export const AboutSection = () => {
   return (
-    <div className="aboutContainer">
+    <div id="about" className="aboutContainer">
       <div className="aboutLeft">
         <img className="bgEffect" src={bgEffect} alt="Background Effect" />
         <img className="bgArt" src={aboutArt} alt="About Art Image" />
