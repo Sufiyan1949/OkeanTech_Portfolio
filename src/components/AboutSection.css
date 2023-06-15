@@ -34,6 +34,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 48px;
+    overflow: hidden;
 }
 
 .aboutContainer .aboutRight .content {

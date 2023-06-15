@@ -1,6 +1,6 @@
 import React from "react";
 import "./WhyChooseSection.css";
-import {WhyCard} from "./WhyCard";
+import { WhyCard } from "./WhyCard";
 import cb from "../assets/cb.png";
 import cs from "../assets/cs.png";
 import tc from "../assets/tc.png";
@@ -10,7 +10,15 @@ import os from "../assets/os.png";
 export const WhyChooseSection = () => {
   return (
     <div className="whyChooseContainer">
-      <h1 className="heading1">Why Choose Us</h1>
+      <h1
+        data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-delay="400"
+        data-aos-duration="700"
+        className="heading1"
+      >
+        Why Choose Us
+      </h1>
       <div className="whyCardGrid">
         <WhyCard
           img={cb}

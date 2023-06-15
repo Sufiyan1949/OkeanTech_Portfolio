@@ -1,11 +1,17 @@
 import React from "react";
 import img from "../assets/product.png";
 import img2 from "../assets/arrow.svg";
-import './ProductCard.css'
+import "./ProductCard.css";
 
 export const ProductCard = () => {
   return (
-    <div className="ProductCard">
+    <div
+      data-aos="zoom-in"
+      data-aos-offset="100"
+      data-aos-delay="600"
+      data-aos-duration="800"
+      className="ProductCard"
+    >
       <img src={img} alt="Product Image" />
       <div className="textContainer">
         <div>

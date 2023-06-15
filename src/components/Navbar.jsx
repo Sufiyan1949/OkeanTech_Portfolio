@@ -8,7 +8,13 @@ export const Navbar = () => {
       <a href="">
         <img src={logo} alt="OkeanTech Logo" />
       </a>
-      <div className="menus">
+      <div
+        data-aos="fade-down"
+        data-aos-offset="10"
+        data-aos-delay="100"
+        data-aos-duration="600"
+        className="menus"
+      >
         <a href="#services">Services</a>
         <a href="#work">My Work</a>
         <a href="#about">About</a>

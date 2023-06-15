@@ -5,14 +5,17 @@ import bgEffect from "../assets/blurr_effect.png";
 export const ServiceItem = ({ img, isRight, title, subtitle }) => {
   var [isMob, setIsMob] = useState(false);
   if (screen.width <= 480) isMob = true;
-  
-  window.addEventListener("resize", function (event) {
-    setIsMob(screen.width <= 480)
-  });
 
+  window.addEventListener("resize", function (event) {
+    setIsMob(screen.width <= 480);
+  });
 
   return (
     <div
+      data-aos={isRight ? "fade-left" : "fade-right"}
+      data-aos-offset="100"
+      data-aos-delay="400"
+      data-aos-duration="800"
       className="serviceItem"
       style={
         !isMob

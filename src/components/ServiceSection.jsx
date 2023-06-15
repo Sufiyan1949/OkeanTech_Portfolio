@@ -10,8 +10,22 @@ import { ServiceItem } from "./ServiceItem";
 export const ServiceSection = () => {
   return (
     <div id="services" className="servicesContainer">
-      <h1 className="heading1">Services</h1>
-      <p className="body-txt">
+      <h1
+        data-aos="fade-right"
+        data-aos-offset="00"
+        data-aos-delay="300"
+        data-aos-duration="800"
+        className="heading1"
+      >
+        Services
+      </h1>
+      <p
+        data-aos="fade-left"
+        data-aos-offset="220"
+        data-aos-delay="300"
+        data-aos-duration="800"
+        className="body-txt"
+      >
         Following are some services that we offer, However you can contact us if
         you need any specific service.
       </p>

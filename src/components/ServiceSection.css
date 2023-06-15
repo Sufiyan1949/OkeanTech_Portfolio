@@ -5,6 +5,7 @@
     padding: 64px 0;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 .servicesContainer>h1 {
