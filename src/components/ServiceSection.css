@@ -25,6 +25,7 @@
 @media screen and (max-width: 480px) {
     .servicesContainer {
         padding: 64px 16px;
+        margin-top: 100px;
     }
 
     .servicesContainer>p {
