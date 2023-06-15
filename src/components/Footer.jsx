@@ -9,13 +9,13 @@ export const Footer = () => {
     <div className="footerContainer">
       <p className="body-txt">© 2023 OkeanTech | All rights reserved</p>
       <div className="socials">
-        <a href="">
+        <a>
           <img src={twitter} alt="social icons" />
         </a>
-        <a href="">
+        <a>
           <img src={linkedin} alt="social icons" />
         </a>
-        <a href="">
+        <a>
           <img src={github} alt="social icons" />
         </a>
       </div>
