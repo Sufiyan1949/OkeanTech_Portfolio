@@ -17,7 +17,7 @@ export const CtaSection = () => {
           Have Project in Your Mind? Let's Work Together
         </h1>
         <p
-          data-aos="fade-in"
+          data-aos="zoom-out"
           data-aos-offset="00"
           data-aos-delay="500"
           data-aos-duration="600"
