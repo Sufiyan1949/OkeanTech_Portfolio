@@ -12,18 +12,18 @@ export const ServiceSection = () => {
     <div id="services" className="servicesContainer">
       <h1
         data-aos="fade-right"
-        data-aos-offset="00"
-        data-aos-delay="300"
-        data-aos-duration="800"
+        data-aos-offset="100"
+        data-aos-delay="100"
+        data-aos-duration="600"
         className="heading1"
       >
         Services
       </h1>
       <p
         data-aos="fade-left"
-        data-aos-offset="220"
-        data-aos-delay="300"
-        data-aos-duration="800"
+        data-aos-offset="0"
+        data-aos-delay="150"
+        data-aos-duration="600"
         className="body-txt"
       >
         Following are some services that we offer, However you can contact us if

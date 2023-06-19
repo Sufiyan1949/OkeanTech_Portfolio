@@ -4,7 +4,7 @@
     border-radius: 16px;
     background: rgba(167, 167, 167, 0.1);
     backdrop-filter: blur(40px);
-    transition: all ease 300ms;
+    transition: all ease 300ms !important;
 }
 
 .ProductCard:hover {

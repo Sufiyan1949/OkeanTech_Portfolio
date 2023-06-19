@@ -3,6 +3,7 @@
 
 :root {
   --bg-color: #E9EAF4;
+  --bg-model: #E7E9FF;
   --primary: #4C56BB;
   --secondary: #1C222B;
   --primary-text: #1C222B;
@@ -96,7 +97,7 @@ body {
   font-family: 'Barlow', sans-serif;
   border-radius: 16px;
   border: none;
-  transition: all ease-in-out 240ms;
+  transition: all ease-in-out 240ms !important;
 }
 
 .btn:hover {
@@ -117,7 +118,7 @@ body {
   margin-left: 24px;
   outline: none;
   text-decoration: none;
-  transition: all ease-in-out 240ms;
+  transition: all ease-in-out 240ms !important;
 }
 
 .btnSecondary:hover {

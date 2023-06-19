@@ -11,8 +11,8 @@ export const PortfolioSection = () => {
         <h1
           data-aos="fade-right"
           data-aos-offset="00"
-          data-aos-delay="300"
-          data-aos-duration="800"
+          data-aos-delay="100"
+          data-aos-duration="600"
           className="heading1"
         >
           OkeanTech Portfolio
@@ -20,8 +20,8 @@ export const PortfolioSection = () => {
         <p
           data-aos="fade-left"
           data-aos-offset="00"
-          data-aos-delay="300"
-          data-aos-duration="800"
+          data-aos-delay="100"
+          data-aos-duration="600"
           className="body-txt"
         >
           some projects that we work on

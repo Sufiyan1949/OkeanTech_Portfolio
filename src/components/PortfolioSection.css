@@ -3,6 +3,7 @@
     min-height: 660px;
     background-color: black;
     position: relative;
+    overflow: hidden;
 }
 
 .PortfolioContainer>img {

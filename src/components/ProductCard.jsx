@@ -7,8 +7,8 @@ export const ProductCard = () => {
   return (
     <div
       data-aos="zoom-in"
-      data-aos-offset="100"
-      data-aos-delay="600"
+      data-aos-offset="50"
+      data-aos-delay="200"
       data-aos-duration="800"
       className="ProductCard"
     >

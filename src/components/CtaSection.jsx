@@ -1,6 +1,7 @@
 import React from "react";
 import "./CtaSection.css";
 import bg from "../assets/bg_effect_portfolio.svg";
+import {Model} from "./ContactModel";
 
 export const CtaSection = () => {
   return (
@@ -9,9 +10,9 @@ export const CtaSection = () => {
       <div className="ctaContent">
         <h1
           data-aos="zoom-out-down"
-          data-aos-offset="00"
-          data-aos-delay="300"
-          data-aos-duration="800"
+          data-aos-offset="50"
+          data-aos-delay="100"
+          data-aos-duration="600"
           className="heading1"
         >
           Have Project in Your Mind? Let's Work Together
@@ -19,22 +20,26 @@ export const CtaSection = () => {
         <p
           data-aos="zoom-out"
           data-aos-offset="00"
-          data-aos-delay="500"
+          data-aos-delay="200"
           data-aos-duration="600"
           className="body-txt"
         >
           Reach out to us today for a free consultation and let us bring your
           web vision to life
         </p>
-        <button
-          data-aos="zoom-out-up"
-          data-aos-offset="00"
-          data-aos-delay="500"
-          data-aos-duration="600"
-          className="btn"
-        >
-          Let's Start Your Project
-        </button>
+        <Model
+          item={
+            <button
+              data-aos="zoom-out-up"
+              data-aos-offset="00"
+              data-aos-delay="300"
+              data-aos-duration="600"
+              className="btn"
+            >
+              Let's Start Your Project
+            </button>
+          }
+        />
       </div>
     </div>
   );

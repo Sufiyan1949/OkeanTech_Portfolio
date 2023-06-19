@@ -5,7 +5,7 @@ export const WhyCard = ({ img, title, subtitle }) => {
     <div
       data-aos="zoom-in"
       data-aos-offset="00"
-      data-aos-delay="600"
+      data-aos-delay="200"
       data-aos-duration="600"
       className="card"
       style={{ maxWidth: "320px" }}

@@ -12,9 +12,9 @@ export const WhyChooseSection = () => {
     <div className="whyChooseContainer">
       <h1
         data-aos="fade-down"
-        data-aos-offset="150"
-        data-aos-delay="400"
-        data-aos-duration="700"
+        data-aos-offset="50"
+        data-aos-delay="100"
+        data-aos-duration="600"
         className="heading1"
       >
         Why Choose Us

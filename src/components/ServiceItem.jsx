@@ -13,9 +13,9 @@ export const ServiceItem = ({ img, isRight, title, subtitle }) => {
   return (
     <div
       data-aos={isRight ? "fade-left" : "fade-right"}
-      data-aos-offset="100"
-      data-aos-delay="400"
-      data-aos-duration="800"
+      data-aos-offset="50"
+      data-aos-delay="200"
+      data-aos-duration="600"
       className="serviceItem"
       style={
         !isMob
