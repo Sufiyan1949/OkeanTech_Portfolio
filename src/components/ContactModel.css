@@ -24,7 +24,7 @@
 }
 
 .modal>.close:hover {
-   opacity: .5;
+    opacity: .5;
 }
 
 .modal .texts>h1 {
@@ -64,4 +64,12 @@
 .modal .inputs>div {
     margin-top: 12px;
     text-align: end;
+}
+
+@media screen and (max-width: 480px) {
+
+    .modal .inputs>input,
+    .modal .inputs>textarea {
+        min-height: 42px;
+    }
 }
